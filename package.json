@@ -1,0 +1,34 @@
+{
+  "name": "moulder-starter-p5js-ts",
+  "version": "0.0.1",
+  "description": "Moulder Starter Kit p5js Typescript",
+  "main": "./dist/",
+  "license": "MIT",
+  "repository": "",
+  "bugs": "",
+  "homepage": "",
+  "private": true,
+  "workspaces": [
+    "*/node_modules/moulder"
+  ],
+  "types": "index.d.ts",
+  "files": [],
+  "scripts": {
+    "dev": "moulder dev",
+    "build": "rimraf dist && moulder build"
+  },
+  "dependencies": {
+    "moulder": "0.2.0",
+    "p5": "^1.4.1"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@types/p5": "^1.4.2",
+    "rimraf": "^3.0.2",
+    "@types/react": "^18.0.9"
+  },
+  "resolutions": {},
+  "engines": {
+    "node": ">=12.22.0"
+  }
+}
